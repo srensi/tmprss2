@@ -1,0 +1,9 @@
+name: tmprss2
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip=20.1=pyh9f0ad1d_0
+  - pandas=1.0.3
+  - pip:
+      - -e chemprop
