@@ -15,10 +15,4 @@ conda env update -n tmprss2 -f chemprop/environment.yml
 conda activate tmprss2
 ```
 
-Install chemprop as a package:
-```
-cd /path/to/tmprss2/chemprop
-pip install -e .
-```
-
 Hopefully, good to go.
