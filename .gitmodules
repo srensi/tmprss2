@@ -1,0 +1,3 @@
+[submodule "chemprop"]
+	path = chemprop
+	url = git@github.com:chemprop/chemprop.git
