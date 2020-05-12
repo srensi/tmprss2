@@ -50,11 +50,11 @@
     "pytorch_seed": 0,
     "quiet": false,
     "reproducibility": {
-        "command_line": "python chemprop/train.py --data_path chemprop_in.csv --dataset_type regression --save_dir models",
+        "command_line": "python /Users/dklink/data_science/tmprss2/chemprop_experiment.py",
         "git_has_uncommitted_changes": true,
         "git_root": "/Users/dklink/data_science/tmprss2",
-        "git_url": "https://github.com/srensi/tmprss2/tree/33e38917573973d85d9a7e496e45450da8c9a9fd",
-        "time": "Fri May  8 14:02:21 2020"
+        "git_url": "https://github.com/srensi/tmprss2/tree/4d03757c2d41cdbbb45e1474b48b0df82349a45b",
+        "time": "Mon May 11 22:51:08 2020"
     },
     "save_dir": "models/fold_0",
     "save_smiles_splits": false,
