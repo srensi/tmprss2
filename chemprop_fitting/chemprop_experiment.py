@@ -6,7 +6,7 @@ from chemprop.args import TrainArgs
 from chemprop.train import cross_validate
 from chemprop.utils import create_logger
 
-csvs = glob.glob(os.path.join('data', '*.csv'))
+csvs = glob.glob(os.path.join('../data/tmprss2_meyer_et_al/', '*.csv'))
 raw_data = pd.concat((pd.read_csv(f) for f in csvs))
 
 chemprop_data = raw_data[['SMILES', 'Activity']]
