@@ -13,7 +13,6 @@ cd tmprss2
 ```shell script
 #Install dependencies:
 conda env create -f environment.yml
-conda env update -n tmprss2 -f chemprop_fitting/chemprop_repo/environment.yml
 conda activate tmprss2
 
 # Install chemprop as package
