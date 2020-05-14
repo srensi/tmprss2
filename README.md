@@ -2,18 +2,20 @@
 Code and documentation for QSAR modeling and virtual screening of small molecule TMPRSS2 inhibitors
 
 # Installation
-1. Clone or download this repo.
-2. Install Miniconda for Python 3 from [https://conda.io/miniconda.html](https://conda.io/miniconda.html)
-3. Run these in terminal
+1. Install Miniconda for Python 3 from [https://conda.io/miniconda.html](https://conda.io/miniconda.html)
+2. Open a terminal, and navigate to the directory you want this repo to live in.
+3. Clone and enter this repo by running
+```shell script
+git clone --recurse-submodules https://github.com/srensi/tmprss2.git
+cd tmprss2
+```
+4. Install dependencies by running these from the tmprss2 directory:
 ```shell script
 #Install dependencies:
-cd /path/to/tmprss2
 conda env create -f environment.yml
 conda env update -n tmprss2 -f chemprop_fitting/chemprop_repo/environment.yml
 conda activate tmprss2
-```
 
-```shell script
 # Install chemprop as package
 pip install -e chemprop_fitting/chemprop_repo
 ```
