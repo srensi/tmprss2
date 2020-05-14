@@ -7,11 +7,13 @@ Code and documentation for QSAR modeling and virtual screening of small molecule
 3. Clone and enter this repo by running
 ```shell script
 git clone --recurse-submodules https://github.com/srensi/tmprss2.git
+# (advanced) If you are authenticating GitHub with ssh, use this line instead
+git clone --recurse-submodules git@github.com:srensi/tmprss2.git
 cd tmprss2
 ```
 4. Install dependencies by running these from the tmprss2 directory:
 ```shell script
-#Install dependencies:
+# Install dependencies:
 conda env create -f environment.yml
 conda activate tmprss2
 
