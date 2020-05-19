@@ -24,7 +24,7 @@ dependencies:
   - ipykernel
   - seaborn
   - pandas
-  - jupyter-lab
+  - jupyterlab
   - pip:
     - typed-argument-parser>=1.4.3
     - git+https://github.com/bp-kelley/descriptastorus
