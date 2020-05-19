@@ -12,13 +12,13 @@
     "crossval_index_dir": null,
     "crossval_index_file": null,
     "crossval_index_sets": null,
-    "cuda": false,
+    "cuda": true,
     "data_path": "chemprop_in.csv",
     "dataset_type": "regression",
     "depth": 3,
     "device": {
         "_type": "python_object (type = device)",
-        "_value": "gANjdG9yY2gKZGV2aWNlCnEAWAMAAABjcHVxAYVxAlJxAy4="
+        "_value": "gANjdG9yY2gKZGV2aWNlCnEAWAQAAABjdWRhcQGFcQJScQMu"
     },
     "dropout": 0.0,
     "ensemble_size": 1,
@@ -50,11 +50,11 @@
     "pytorch_seed": 0,
     "quiet": false,
     "reproducibility": {
-        "command_line": "python /Users/dklink/data_science/tmprss2/chemprop_fitting/chemprop_experiment.py",
+        "command_line": "python chemprop_experiment.py",
         "git_has_uncommitted_changes": true,
-        "git_root": "/Users/dklink/data_science/tmprss2",
-        "git_url": "https://github.com/srensi/tmprss2/tree/be717a0de45d7c585985f3715f8e7f7f3a182dcf",
-        "time": "Wed May 13 11:41:01 2020"
+        "git_root": "/mnt/projects_1/tmprss2",
+        "git_url": "https://github.com/srensi/tmprss2/tree/a52b5d855abee36f7443e2d1e1c6cd49a2d2aaa5",
+        "time": "Thu May 14 12:04:43 2020"
     },
     "save_dir": "models/fold_0",
     "save_smiles_splits": false,
